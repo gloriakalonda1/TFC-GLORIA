@@ -1,0 +1,120 @@
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.div_form{
+    width: 60%;
+    height: 500px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 300px;
+    margin: 10px 0;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:hover{
+    border: 1px solid #bba006;
+}
+
+button{
+    width: max-content;
+    margin: 40px 0px;
+    padding: 10px 20px;
+    background-color: #bba006;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #bba006ba;
+    font-weight: bolder;
+}
+
+.form-group {
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+/*----------Radio----------*/
+input[type="radio"] {
+    display: none;
+}
+input[type="checkbox"] {
+    display: none;
+}
+.radio-container {
+    margin: auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 0px 3px 0px #c5c5c5 inset;
+}
+.radio-container label{
+    width: -webkit-fill-available;
+    height: 100%;
+}
+.radio-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #4D5353;
+    font-size: 17px;
+    cursor: pointer;
+    transition-property: background-color color;
+    transition-duration: 0.15s;
+    transition-timing-function: ease;
+}
+.radio-button span{
+    padding: 10px;
+}
+.radio-button:hover {
+    color: #D19B4A;
+    background-color: #e0e0e0;
+}
+input[type="radio"]:checked ~ .radio-button {
+    background-color: #D19B4A;
+    color: #d8d8d8;
+}
+input[type="checkbox"]:checked ~ .radio-button {
+    background-color: #D19B4A;
+    color: #d8d8d8;
+}
+

@@ -1,0 +1,49 @@
+.step {
+    display: none;
+}
+
+.step.active {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.step-container{
+    width: 100%;
+}
+
+.stepB{
+    display: flex;
+}
+
+#multiStepForm{
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+table {
+    border-collapse: collapse; /* Combine cell borders for a clean appearance */
+    width: 80%; /* Adjust width as needed */
+    margin: 20px auto; /* Center the table */
+  }
+  
+th, td {
+    border: 1px solid #ccc; /* Add borders to each cell */
+    padding: 8px; /* Add spacing around cell content */
+    text-align: left; /* Align text to the left */
+}
+
+th {
+    background-color: #eee; /* Highlight table headers */
+    font-weight: bold; /* Make headers bolder */
+}
+
+tr:nth-child(even) { /* Style even rows (optional) */
+    background-color: #f2f2f2;
+}
